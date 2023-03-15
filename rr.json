@@ -1,6 +1,6 @@
 [
-	{"name": "Test1", "ring":"Assess", "quadrant":"Techniques", "isNew": true, "description": "Description"},
-	{"name": "Test2", "ring":"Hold", "quadrant":"Platforms", "isNew": true, "description": "Description"},
-	{"name": "Test3", "ring":"Adopt", "quadrant":"Tools", "isNew": true, "description": "Description"},
-	{"name": "Test4", "ring":"Trial", "quadrant":"languages-and-frameworks", "isNew": true, "description": "Description"}
+	{"name": "Test1", "ring":"Assess", "quadrant":"Techniques", "isNew": "true", "description": "Description"},
+	{"name": "Test2", "ring":"Hold", "quadrant":"Platforms", "isNew": "true", "description": "Description"},
+	{"name": "Test3", "ring":"Adopt", "quadrant":"Tools", "isNew": "true", "description": "Description"},
+	{"name": "Test4", "ring":"Trial", "quadrant":"languages-and-frameworks", "isNew": "true", "description": "Description"}
 ]
