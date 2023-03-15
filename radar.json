@@ -1,0 +1,6 @@
+[
+	{"name": "Test1", "ring":"Assess", "quadrant":"Techniques", "isNew": true},
+	{"name": "Test2", "ring":"Assess", "quadrant":"Platforms", "isNew": true},
+	{"name": "Test3", "ring":"Assess", "quadrant":"Tools", "isNew": true},
+	{"name": "Test4", "ring":"Assess", "quadrant":"languages-and-frameworks", "isNew": true}
+]
