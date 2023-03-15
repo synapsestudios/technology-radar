@@ -2,7 +2,7 @@
 quadrant: Techniques
 isNew: true
 ring: Assess
-title: Title1
+name: Title1
 ---
 
 Description
