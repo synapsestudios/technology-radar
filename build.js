@@ -21,7 +21,7 @@ async function main() {
 			return {name: md.meta.name, quadrant: md.meta.quadrant, ring: md.meta.ring, description: html, isNew: md.meta.isNew ? 'TRUE' : 'FALSE'}
 		}))).filter(v => v !== null);
 
-		await fs.promises.writeFile('./test.json', JSON.stringify(results))
+		await fs.promises.writeFile('./radar.json', JSON.stringify(results))
 
 	} catch (err) {
 		console.error(err);
