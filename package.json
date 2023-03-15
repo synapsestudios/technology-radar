@@ -1,0 +1,23 @@
+{
+  "name": "technology-radar",
+  "version": "1.0.0",
+  "description": "https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fsynapsestudios.github.io%2Ftechnology-radar%2Fradar.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/synapsestudios/technology-radar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/synapsestudios/technology-radar/issues"
+  },
+  "homepage": "https://github.com/synapsestudios/technology-radar#readme",
+  "dependencies": {
+    "markdown-it": "^13.0.1",
+    "markdown-it-meta": "^0.0.1"
+  }
+}
