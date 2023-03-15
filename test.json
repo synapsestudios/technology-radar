@@ -1,1 +1,6 @@
-[{"quadrant":"Techniques","isNew":"TRUE","ring":"Assess","name":"Title1","description":"<p>Description</p>\n"},{"quadrant":"Platforms","isNew":"TRUE","ring":"Hold","name":"Title2","description":"<p>Description</p>\n"},{"quadrant":"Tools","isNew":"TRUE","ring":"Adopt","name":"Title3","description":"<p>Description</p>\n"},{"quadrant":"languages-and-frameworks","isNew":"TRUE","ring":"Trial","name":"Title1","description":"<p>Description</p>\n"}]
+[
+	{"quadrant":"Techniques","isNew":"TRUE","ring":"Assess","name":"Title1","description":"<p>Description</p>\n"},
+	{"quadrant":"Platforms","isNew":"TRUE","ring":"Hold","name":"Title2","description":"<p>Description</p>\n"},
+	{"quadrant":"Tools","isNew":"TRUE","ring":"Adopt","name":"Title3","description":"<p>Description</p>\n"},
+	{"quadrant":"languages-and-frameworks","isNew":"TRUE","ring":"Trial","name":"Title1","description":"<p>Description</p>\n"}
+]

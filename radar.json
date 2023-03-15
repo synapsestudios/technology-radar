@@ -1,5 +1,5 @@
 [
-	{"name": "Test1", "ring":"Assess", "quadrant":"Techniques", "isNew": "TRUE", "description": "Description"},
+	{"name": "Test1", "ring":"Assess", "quadrant":"Techniques", "isNew": "TRUE", "description": "<p>Description</p>"},
 	{"name": "Test2", "ring":"Hold", "quadrant":"Platforms", "isNew": "TRUE", "description": "Description"},
 	{"name": "Test3", "ring":"Adopt", "quadrant":"Tools", "isNew": "TRUE", "description": "Description"},
 	{"name": "Test4", "ring":"Trial", "quadrant":"languages-and-frameworks", "isNew": "TRUE", "description": "Description"}
