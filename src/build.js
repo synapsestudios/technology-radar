@@ -23,6 +23,6 @@ const parse = async (files, readData) => {
 module.exports = async (opts = {dir: '', outFile: ''}) =>  {
 	const files = await getFiles(opts.dir);
 	const readData = (f) => fs.promises.readFile(`${opts.dir}/${f}`, 'utf8')
-	return parse(files, readData);
-	await fs.promises.writeFile(opts.outFile, JSON.stringify(results))
+	const results = await parse(files, readData);
+	await fs.promises.writeFile(opts.outFile, JSON.stringify(results, null, 2))
 }

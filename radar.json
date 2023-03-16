@@ -1,1 +1,30 @@
-[{"name":"Title1","quadrant":"Techniques","ring":"Assess","description":"<p>Description</p>\n<p><a href=\"https://google.com\">some link</a></p>\n","isNew":"TRUE"},{"name":"Title2","quadrant":"Platforms","ring":"Hold","description":"<p>Description</p>\n","isNew":"TRUE"},{"name":"Title3","quadrant":"Tools","ring":"Adopt","description":"<p>Description</p>\n","isNew":"TRUE"},{"name":"Title1","quadrant":"languages-and-frameworks","ring":"Trial","description":"<p>Description</p>\n","isNew":"TRUE"}]
+[
+  {
+    "name": "Next.js",
+    "quadrant": "Languages and Frameworks",
+    "ring": "Trial",
+    "description": "<p><a href=\"https://nextjs.org/\">Next.js</a> is a popular React framework that offers a handful of nice features. For extremely dynamic sites and content Next.js offers a simplified framework for delivery Reach apps with server side rendering (SSR). SSR is becoming more popular as a default for single page applications because of the performance and SEO improvements. Some teams are even leveraging their SSR apps to open up api and data fetching design options. For example, you can access a database from your Next.js code and eliminate the need for backend frameworks.</p>\n<p>SSR frameworks are becoming ubiquitous. Fewer people are familiuar with create react app and the technology involved in bundling a SPA for client side delivery and rendering. This is one of the biggest reasons to start trialing other frameworks, build tools, architectures and delivery methods.</p>\n",
+    "isNew": "TRUE"
+  },
+  {
+    "name": "Title2",
+    "quadrant": "Platforms",
+    "ring": "Hold",
+    "description": "<p>Description</p>\n",
+    "isNew": "TRUE"
+  },
+  {
+    "name": "Title3",
+    "quadrant": "Tools",
+    "ring": "Adopt",
+    "description": "<p>Description</p>\n",
+    "isNew": "TRUE"
+  },
+  {
+    "name": "Title1",
+    "quadrant": "Techniques",
+    "ring": "Trial",
+    "description": "<p>Description</p>\n",
+    "isNew": "TRUE"
+  }
+]
