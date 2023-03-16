@@ -1,5 +1,5 @@
 ---
-quadrant: languages-and-frameworks
+quadrant: Techniques
 isNew: true
 ring: Trial
 name: Title1
