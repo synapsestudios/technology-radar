@@ -1,9 +1,16 @@
 [
   {
+    "name": "hapi",
+    "quadrant": "Languages and Frameworks",
+    "ring": "Hold",
+    "description": "<p>Synapse has used hapi for close to a decade. We originally adopted hapi for its strong culture, lightweight api, and security features. One important aspect of hapi has always been that it has no external dependencies at all. Hapi is and has always been completely isolated from <a href=\"https://circleci.com/blog/secure-software-supply-chain/?utm_source=google&amp;utm_medium=sem&amp;utm_campaign=sem-google-dg--uscan-en-dsa-tROAS-auth-nb&amp;utm_term=g_-_c__dsa_&amp;utm_content=&amp;gclid=CjwKCAjw_MqgBhAGEiwAnYOAemTlrPWDKv0v_kNRMIPVVLv6SDF925rd87LlZA6FXutlSeTpajtu-RoCca0QAvD_BwE\">supply chain</a> security issues.</p>\n<p>However, we have moved the hapi blip into our &quot;Hold&quot; ring for two reasons. One is that as of a couple of years ago we've rapidly adopted typescript. Working with hapi in typescript has been painful and we started to prefer typescript native frameworks. Our architectural preferences have also grown somewhat in that timeframe and we have grown to prefer a stronger modularization paradigm than hapi's plugins. We have especially fallen out of love with the convention in the hapi community to mutate the server object in order to pass around plugins and other dependencies. Hapi will probably always have a place at Synapse, but we are no longer starting new work with this framework.</p>\n",
+    "isNew": "TRUE"
+  },
+  {
     "name": "Next.js",
     "quadrant": "Languages and Frameworks",
     "ring": "Trial",
-    "description": "<p><a href=\"https://nextjs.org/\">Next.js</a> is a popular React framework that offers a handful of nice features. For extremely dynamic sites and content Next.js offers a simplified framework for delivery Reach apps with server side rendering (SSR). SSR is becoming more popular as a default for single page applications because of the performance and SEO improvements. Some teams are even leveraging their SSR apps to open up api and data fetching design options. For example, you can access a database from your Next.js code and eliminate the need for backend frameworks.</p>\n<p>SSR frameworks are becoming ubiquitous. Fewer people are familiuar with create react app and the technology involved in bundling a SPA for client side delivery and rendering. This is one of the biggest reasons to start trialing other frameworks, build tools, architectures and delivery methods.</p>\n",
+    "description": "<p><a href=\"https://nextjs.org/\">Next.js</a> is a popular React framework that offers a handful of nice features. For extremely dynamic sites and content Next.js offers a simplified framework for delivery Reach apps with server side rendering (SSR). SSR is becoming more popular as a default for single page applications because of the performance and SEO improvements. Some teams are even leveraging their SSR apps to open up api and data fetching design options. For example, you can access a database from your Next.js code and eliminate the need for backend frameworks.</p>\n<p>SSR frameworks are becoming ubiquitous. Fewer people are familiuar with <a href=\"https://reactjs.org/docs/create-a-new-react-app.html#create-react-app\">create react app</a> and the technology involved in bundling a SPA for client side delivery and rendering. This is one of the biggest reasons to start trialing other frameworks, build tools, architectures and delivery methods.</p>\n",
     "isNew": "TRUE"
   },
   {
