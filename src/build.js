@@ -31,6 +31,6 @@ module.exports = async (opts = {dir: '', outFile: ''}) =>  {
 	const files = await getFiles(opts.dir);
 	const readData = (f) => fs.promises.readFile(`${opts.dir}/${f}`, 'utf8')
 	const results = await parse(files, readData);
-  results.sort((a, b) => RING_ORDER[a.ring] - RING_ORDER[b.ring]);
+	results.sort((a, b) => RING_ORDER[a.ring] - RING_ORDER[b.ring]);
 	await fs.promises.writeFile(opts.outFile, JSON.stringify(results, null, 2))
 }
