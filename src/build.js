@@ -4,9 +4,9 @@ const fs = require('fs');
 
 // Lower RING_ORDER values are closer to the center
 const RING_ORDER = {
-  Adopt: 1,
-  Trial: 2,
-  Hold: 3,
+	Adopt: 1,
+	Trial: 2,
+	Hold: 3,
 }
 
 const getFiles = (dir) => new Promise((resolve, reject) => {
