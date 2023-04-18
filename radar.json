@@ -3,7 +3,7 @@
     "name": "NestJS",
     "quadrant": "Languages and Frameworks",
     "ring": "Adopt",
-    "description": "<p>Most of the work Synapse does can most responsibly be done with the <a href=\"https://www.youtube.com/watch?v=5OjqD-ow8GE\">modular monolith</a> architecture pattern, and we have been using <a href=\"https://nestjs.com/\">NestJS</a> to build these monoliths. Nest is a fairly heavy weight framework, which makes it an unusual choice for Synapse, but it has a very good module system, it's very popular, and it's well designed.</p>\n<p>Because it has a bigger footprint than the frameworks we've historically used it will be important to stricly define the boundaries between the parts of our code that are allowed to know about the framework, and the parts that aren't.</p>\n",
+    "description": "<p>Most of the work Synapse does can most responsibly be done with the <a href=\"https://www.youtube.com/watch?v=5OjqD-ow8GE\">modular monolith</a> architecture pattern, and we have been using <a href=\"https://nestjs.com/\">NestJS</a> to build these monoliths. Nest is a fairly heavy weight framework, which makes it an unusual choice for Synapse, but it has a very good module system, it's very popular, and it's well designed.</p>\n<p>Because it has a bigger footprint than the frameworks we've historically used it will be important to strictly define the boundaries between the parts of our code that are allowed to know about the framework, and the parts that aren't.</p>\n",
     "isNew": "TRUE"
   },
   {
@@ -17,7 +17,7 @@
     "name": "Next.js",
     "quadrant": "Languages and Frameworks",
     "ring": "Trial",
-    "description": "<p><a href=\"https://nextjs.org/\">Next.js</a> is a popular React framework that offers a handful of nice features. For extremely dynamic sites and content Next.js offers a simplified framework for delivering React apps with server side rendering (SSR). SSR is becoming more popular as a default for single page applications because of the performance and SEO improvements. Some teams are even leveraging their SSR apps to open up api and data fetching design options. For example, you can access a database from your Next.js code and eliminate the need for backend frameworks.</p>\n<p>SSR frameworks are becoming ubiquitous. Fewer people are familiuar with <a href=\"https://reactjs.org/docs/create-a-new-react-app.html#create-react-app\">create react app</a> and the technology involved in bundling a SPA for client side delivery and rendering. This is one of the biggest reasons to start trialing other frameworks, build tools, architectures and delivery methods.</p>\n",
+    "description": "<p><a href=\"https://nextjs.org/\">Next.js</a> is a popular React framework that offers a handful of nice features. For extremely dynamic sites and content Next.js offers a simplified framework for delivering React apps with server side rendering (SSR). SSR is becoming more popular as a default for single page applications because of the performance and SEO improvements. Some teams are even leveraging their SSR apps to open up api and data fetching design options. For example, you can access a database from your Next.js code and eliminate the need for backend frameworks.</p>\n<p>SSR frameworks are becoming ubiquitous. Fewer people are familiar with <a href=\"https://reactjs.org/docs/create-a-new-react-app.html#create-react-app\">create react app</a> and the technology involved in bundling a SPA for client side delivery and rendering. This is one of the biggest reasons to start trialing other frameworks, build tools, architectures and delivery methods.</p>\n",
     "isNew": "TRUE"
   },
   {
@@ -25,6 +25,13 @@
     "quadrant": "Techniques",
     "ring": "Trial",
     "description": "<p>Description</p>\n",
+    "isNew": "TRUE"
+  },
+  {
+    "name": "Bookshelf.js",
+    "quadrant": "Languages and Frameworks",
+    "ring": "Hold",
+    "description": "<p>Synapse used <a href=\"https://bookshelfjs.org/\">Bookshelf.js</a> for the better part of a decade, beginning with our earliest projects after changing our preferred backend environment from PHP to Node.js. The things that we liked about it were that it used the <a href=\"https://knexjs.org/\">knex</a> query builder, which was well known for its ease-of-use and multi-database support, and that it was a lightweight ORM that reduced the amount of boilerplate code we'd need for CRUD operations.</p>\n<p>However, we have moved the bookshelf blip into our &quot;Hold&quot; ring for a few reasons. As our approach to building web applications has evolved, we have adopted a Domain Driven Design (DDD) architecture with a repository pattern, emphasizing the separation of concerns between the domain model and the persistence layer. Bookshelf.js primarily uses the active record pattern and is tightly coupled with the database schema, which makes it incompatible with our approach without a lot of extra code wrapping it. Another reason is we found that even with all the methods provided by bookshelf, we were writing a lot of custom code to handle the many-to-many relationships that are common in our applications, and the ORM lacked some things we commonly needed, like an official way to handle pagination (though community-created plugins were helpful). Finally, the bookshelf repository has fallen out of active development, and the community has moved on to other ORMs like <a href=\"https://vincit.github.io/objection.js/\">Objection.js</a>.</p>\n",
     "isNew": "TRUE"
   },
   {
