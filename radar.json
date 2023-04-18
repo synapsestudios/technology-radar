@@ -14,6 +14,13 @@
     "isNew": "TRUE"
   },
   {
+    "name": "React Native Bootsplash",
+    "quadrant": "Tools",
+    "ring": "Adopt",
+    "description": "<p><a href=\"https://github.com/zoontek/react-native-bootsplash\">React Native Bootsplash</a> is used for displaying a splash screen immediately after launching a React Native app, but before the component tree has finished mounting, and the app is not yet ready to display a screen from the navigation. The library it replaces, <a href=\"https://github.com/crazycodeboy/react-native-splash-screen\">React Native Splash Screen</a> is no longer actively maintained.</p>\n<p>React Native Bootsplash is implemented in a way that is compatible with the new <a href=\"https://developer.android.com/about/versions/12/features/splash-screen\">Splash Screen API</a> in Android 12. The <code>react-native-splash-screen</code> implementation tries to use a fullscreen modal dialog, which is not recommended by Google.</p>\n<p>It should also be noted that <code>react-native-splash-screen</code> has known issues with other tools, such as Detox for e2e testing, and the recommended solution is to use <code>react-native-bootsplash</code> instead.</p>\n",
+    "isNew": "TRUE"
+  },
+  {
     "name": "Tanstack Query (aka react-query)",
     "quadrant": "Tools",
     "ring": "Adopt",
