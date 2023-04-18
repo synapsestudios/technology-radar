@@ -1,5 +1,5 @@
 ---
-quadrant: Languages and Frameworks
+quadrant: Tools
 isNew: true
 ring: Hold
 name: Bookshelf.js
