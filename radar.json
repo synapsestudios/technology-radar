@@ -1,5 +1,12 @@
 [
   {
+    "name": "Chakra UI",
+    "quadrant": "Tools",
+    "ring": "Adopt",
+    "description": "<p><a href=\"https://chakra-ui.com/\">Chakra UI</a> is a React component library which emphasizes accessibility, customization through theming, and simple component APIs. It gives a lot of nice features out of the box which can save a lot of development time, such as aria attributes, built-in focus management, a dark mode theme, and a responsive layout system. It also has excellent support for TypeScript, and has a very good <a href=\"https://chakra-ui.com/docs/getting-started\">documentation site</a> with lots of examples.</p>\n<p>Synapse has used Chakra UI for a few years now, and we have found it to be a very good fit for our needs.</p>\n",
+    "isNew": "TRUE"
+  },
+  {
     "name": "Domain Driven Design",
     "quadrant": "Techniques",
     "ring": "Adopt",
