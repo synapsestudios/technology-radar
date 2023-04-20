@@ -20,4 +20,4 @@ There are some potential drawbacks to using Prisma, including:
 - Limited control: Prisma's API is optimized for typical use cases, but it may not cover all edge cases or advanced features of the database. In some cases, developers may need to use raw SQL which is a little bit kludgy in Prisma.
 - Difficult to debug: When things _do_ go wrong with Prisma, especially with the schema or migration tools, it can be difficult to tell where the problem lies since the error messages and stack traces aren't always helpful.
 
-We're trialing this primarily because the developer experience is so good in terms of TypeScript usage and community support. It should still be used responsibly and isolated to the infrastructure layers of the codebase by using patterns such as the Repository pattern.\
+We're trialing this primarily because the developer experience is so good in terms of TypeScript usage and community support. It should still be used responsibly and isolated to the infrastructure layers of the codebase by using patterns such as the Repository pattern.
