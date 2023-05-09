@@ -1,5 +1,12 @@
 [
   {
+    "name": "Auth0 IDP",
+    "quadrant": "Platforms",
+    "ring": "Adopt",
+    "description": "<p>Auth0 is a managed identity platform that serves as an alternative to the Synapse OIDC Provider as well as AWS Cognito and other similar services. Auth0 has a generous free plan and relatively low pricing for applications that don't have hundreds of thousands of monthly active users. It also has a React Native SDK that makes it straightforward to integrate into our React Native apps, and a well-documented administrative API.</p>\n<p>We have used Auth0 on a number of projects in production and have found it to be a good fit for our use cases. It has a number of benefits over other tools like Cognito:</p>\n<ul>\n<li>Ability to migrate users with password hashes from other OIDC providers or from other Auth0 tenants.</li>\n<li>Ability to invite users with a &quot;Set Password&quot; link, which is a common use case for us.</li>\n<li>Ability to customize the default screens and emails for login, signup, and password reset workflows.</li>\n<li>Very good React Native library with hooks support.</li>\n<li>Very good admin UI that makes it easy for non-developers to do administrative tasks.</li>\n<li>Very good documentation and support.</li>\n<li>Social SSO support for providers like Google, Apple, and Facebook</li>\n<li>HIPAA compliance</li>\n<li>MFA</li>\n<li>Passwordless login</li>\n</ul>\n",
+    "isNew": "TRUE"
+  },
+  {
     "name": "Chakra UI",
     "quadrant": "Tools",
     "ring": "Adopt",
