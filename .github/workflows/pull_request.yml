@@ -10,3 +10,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3.5.2
+
+      # Commit and push all changed files.
+      - name: GIT Commit Build Artifacts (coverage, dist, devdist, docs)
+        # Only run on main branch push (e.g. after pull request merge).
+        if: github.event_name == 'push'
+        run: |
+          git config --global user.name "SYNOPS"
+          git config --global user.email "synops@users.noreply.github.com"
+          git commit -a -m "Committing new build .json"
+          git push
