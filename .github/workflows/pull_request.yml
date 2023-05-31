@@ -19,13 +19,17 @@ jobs:
           node-version: "20"
       - name: Node Install
         run: npm ci
-      - name: Node Build (lint, test, coverage, doc, build, package)
+      - name: Node Build
         run: npm run build
+
+      - name: Test
+        run: npm run test
 
       - name: Check for modified files
         id: git-check
-        run: echo ::set-output name=modified::$(if [ -n "$(git status --porcelain)" ]; then echo "true"; else echo "false"; fi)
-
+        # run: echo ::set-output name=modified::$(if [ -n "$(git status --porcelain)" ]; then echo "true"; else echo "false"; fi)
+        # run: echo "{name}={value}" >> $GITHUB_OUTPUT
+        run: echo $(if [ -n "$(git status --porcelain)" ]; then echo "modified=true"; else echo "modified=false"; fi) >> $GITHUB_OUTPUT
       # Commit and push all changed files.
       - name: GIT Commit Build Artifacts (coverage, dist, devdist, docs)
         # Only run on main branch push (e.g. after pull request merge).
