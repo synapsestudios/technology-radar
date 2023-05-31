@@ -77,13 +77,6 @@
     "isNew": "TRUE"
   },
   {
-    "name": "Title5",
-    "quadrant": "languages-and-frameworks",
-    "ring": "Trial",
-    "description": "<p>Description goes here</p>\n",
-    "isNew": "TRUE"
-  },
-  {
     "name": "XState",
     "quadrant": "Tools",
     "ring": "Trial",
