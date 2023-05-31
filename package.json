@@ -4,7 +4,8 @@
   "description": "https://radar.thoughtworks.com/?sheetId=https%3A%2F%2Fsynapsestudios.github.io%2Ftechnology-radar%2Fradar.json",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --watch",
+    "test": "mocha",
+    "test:watch": "mocha --watch",
     "build": "node src/main.js"
   },
   "repository": {
