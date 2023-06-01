@@ -19,11 +19,13 @@ jobs:
           node-version: "20"
       - name: Node Install
         run: npm ci
-      - name: Node Build
-        run: npm run build
-
       - name: Test
         run: npm run test
+
+      - name: Build radar.json
+        run: npm run build
+      - name: Validate radar.json
+        run: npm run test:acceptance
 
       - name: Check for modified files
         id: git-check
