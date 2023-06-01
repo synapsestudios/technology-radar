@@ -6,6 +6,8 @@
   "scripts": {
     "test": "mocha",
     "test:watch": "mocha --watch",
+    "test:acceptance": "mocha \"./acceptance/**/*.js\"",
+    "test:acceptance:watch": "mocha \"./acceptance/**/*.js\" --watch",
     "build": "node src/main.js"
   },
   "repository": {
@@ -23,6 +25,7 @@
     "markdown-it-meta": "^0.0.1"
   },
   "devDependencies": {
+    "joi": "^17.9.2",
     "mocha": "^10.2.0"
   }
 }
