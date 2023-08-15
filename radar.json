@@ -105,6 +105,13 @@
     "isNew": "TRUE"
   },
   {
+    "name": "Create React App",
+    "quadrant": "Tools",
+    "ring": "Hold",
+    "description": "<p>Create React App is a command line tool that will create a react project for you that will include testing, a local dev server, and build scripts. It is fairly opinionated, but that's what it's for.</p>\n<p>CRA has fallen out of regular use with the broader community and is no longer recommened on the <a href=\"https://react.dev/learn/start-a-new-react-project\">react website</a>. For that reason Synapse will no longer be bootstrapping applications with CRA.</p>\n",
+    "isNew": "TRUE"
+  },
+  {
     "name": "hapi",
     "quadrant": "Languages and Frameworks",
     "ring": "Hold",
